@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.png">
+    <title>Guess My Number</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="parent-container">
+        <div class="top-container">
+            <button class="again-btn try-again-btn">Again!</button>
+            <div class="number-range"><span>&#60; Between 1 and 20 &#62;</span></div>
+        </div>
+        <div class="header">Guess My Number!</div>
+        <div class="question-mark-container">
+            <div class="center-border"></div>
+            <p class="input-display question-mark-logo">?</p>
+            <div class="center-border"></div>
+        </div>
+        <div class="bottom-container">
+            <div class="bottom-left">
+                <div class="input-field-container">
+                    <input type="number" class="input-field"></input>
+                </div>
+                <div class="check-btn-container">
+                    <button class="check-btn">check!</button>
+                </div>
+            </div>
+            <div class="bottom-right">
+                <div class="bottom-right-top">
+                    <div class="result-display">Start guessing...</div>
+                </div>
+                <div class="bottom-right-bottom">
+                    <div class="score-display">Score: <span class="score">20</span></div>
+                    <div class="highscore">Highscore: <span class="display-highscore">0</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

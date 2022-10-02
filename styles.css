@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Turret+Road:wght@200;300;400;500;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Turret Road';
+}
+@media only screen and (max-width : 420px) {
+    .try-again-btn{
+        font-size: 28px!important;
+    }
+    .number-range{
+        font-size: 20px;
+    }
+    .header{
+        font-size: 36px!important;
+    }
+    .bottom-container{
+        align-items: center;
+        flex-direction: column-reverse!important;
+    }
+    
+    .input-field-container{
+        flex: 0.3!important;
+        justify-content: center!important;
+        align-items: center!important;
+        padding-right: 0px!important;
+    }
+    .check-btn-container{
+        justify-content: center!important;
+        align-items: flex-start!important;
+        padding-right: 0px!important;
+    }
+    .check-btn{
+        font-size: 30px!important;
+    }
+    .bottom-right{
+        flex: 0.5!important;
+        width: 96vw;
+    }
+    .bottom-right-top{
+        justify-content: center!important;
+        align-items: center!important;
+    }
+    .result-display{
+        margin: 0!important;
+    }
+    .bottom-right-bottom{
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .score-display, .highscore {
+        margin: 0px!important;
+        color: white;
+    }
+}
+.parent-container{
+    display:flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-color: #363636;
+}
+.top-container{
+    display: flex;
+    flex-direction: row;
+    flex: 0.1;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+}
+.try-again-btn{
+    width: 7rem;
+    height: 7vh;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.number-range{
+    display: flex;
+    height: 2.5rem;
+    margin-right: 10px;
+    color: white;
+    font-weight: bold;
+}
+.header{
+    display: flex;
+    flex: 0.15;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 800;
+    font-size: 46px;
+}
+.question-mark-container{
+    display: flex;
+    flex-direction: row;
+    flex: 0.15;
+    align-items: center;
+}
+.center-border{
+    display: flex;
+    flex: 1;
+    height: 6px;
+    background-color: white;
+}
+.question-mark-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 6rem;
+    color: #363636;
+    background-color: whitesmoke;
+    font-weight: bold;
+    font-size: 4.5rem;
+}
+.bottom-container{
+    display: flex;
+    flex: 0.6;
+    flex-direction: row;
+}
+
+.bottom-left{
+    display: flex;
+    flex: 0.5;
+    flex-direction: column;
+}
+.input-field-container{
+    display: flex;
+    flex: 0.5;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 30px;
+}
+.input-field{
+    text-align: center;
+    width: 9rem;
+    height: 4rem;
+    font-size: 50px;
+    font-weight: 500;
+    background-color: #363636;
+    border: 2px solid white;
+    outline: none;
+    color: whitesmoke;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+.input-field:focus{
+    background-color: #2b2b2b;
+
+}
+.check-btn-container{
+    display: flex;
+    flex: 0.5;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding-right: 45px;
+}
+.check-btn{
+    width: 7rem;
+    height: 7vh;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.bottom-right{
+    display: flex;
+    flex: 0.5;
+    flex-direction: column;
+}
+.bottom-right-top{
+    display: flex;
+    flex: 0.5;
+    align-items: flex-end;
+}
+.result-display{
+    font-size: 30px;
+    font-weight: bold;
+
+    margin: 0 0 46px 30px;
+    color: white;
+}
+.bottom-right-bottom{
+    display: flex;
+    flex: 0.5;
+    flex-direction: column;
+}
+.score-display, .highscore {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px 0 0 30px;
+    color: white;
+}
